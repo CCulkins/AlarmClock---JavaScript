@@ -12,14 +12,21 @@
       <h3>Well look at the time! </h3>
       <h3 class="jumbotron" id="time"></h3>
 
-      <form class="form-group" id="alarmAlarm">
+      <form class="form-group" id="alarmform">
 
         <label for="setAlarm">Set Alarm</label>
-        <input type="text" id="formInput" name="name" placeholder="12:00">
+        <input type="text" id="hours" name="name" placeholder="12:00">
 
-        <button class="btn-danger btn-lg" id="alarmId">Set Alarm</button>
+        <input type="text" id="minutes" name="name">
+
+        <button type="submit" class="btn-danger btn-lg" id="alarmId">Set Alarm</button>
 
       </form>
+
+      <ul id="empty">
+
+      </ul>
+
     </div>
 
   </body>
